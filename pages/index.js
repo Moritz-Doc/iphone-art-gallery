@@ -1,7 +1,8 @@
-export default function HomePage() {
+export default function HomePage({ artList }) {
+  console.log("artList: ", artList);
   return (
     <div>
-      <h1>Hello from Next.js</h1>
+      <h1>Hello Maurice</h1>
     </div>
   );
 }
