@@ -9,7 +9,7 @@ export default function HomePage({ artList }) {
   //We log the art object
   console.log("art: ", art);
 
-  //We log the value of the key artist form our object art
+  //We log the value of the key artist from our object art
   console.log("Artist Name: ", art.artist);
 
   console.log("Image url: ", art.imageSource);
@@ -24,6 +24,7 @@ export default function HomePage({ artList }) {
         height={500}
       ></Image>
       <p>{art.artist}</p>
+      <p>{art.year}</p>
     </>
   );
 }
