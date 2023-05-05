@@ -6,12 +6,11 @@ export default Header;
 function Header() {
   return (
     <div className="layout-header">
-      Im the header
       <Image
-        scr="../NavIcons/Account.png"
+        src="/../public/NavIcons/ArtNav.png"
+        alt="Account"
         width={45}
         height={45}
-        alt="Account"
       />
     </div>
   );
