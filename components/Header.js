@@ -1,3 +1,18 @@
-export default function Header() {
-  return <header>Im the header</header>;
+import Image from "next/image";
+//import Link from "next/link";
+
+export default Header;
+
+function Header() {
+  return (
+    <div className="layout-header">
+      Im the header
+      <Image
+        scr="/NavIcons/Account.png"
+        width={150}
+        height={150}
+        alt="Account"
+      />
+    </div>
+  );
 }

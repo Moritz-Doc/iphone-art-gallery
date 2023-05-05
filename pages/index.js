@@ -5,7 +5,7 @@ export default function HomePage({ artList }) {
   console.log("artList: ", artList);
 
   // we are saving in art the first element of my array artList
-  const art = artList[0];
+  const art = artList[2];
   //We log the art object
   console.log("art: ", art);
 
@@ -20,8 +20,8 @@ export default function HomePage({ artList }) {
       <Image
         src={art.imageSource}
         alt={art.artist}
-        width={500}
-        height={500}
+        width={800}
+        height={800}
       ></Image>
       <p>{art.artist}</p>
       <p>{art.year}</p>
