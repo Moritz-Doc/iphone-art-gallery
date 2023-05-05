@@ -8,9 +8,9 @@ function Header() {
     <div className="layout-header">
       Im the header
       <Image
-        scr="/NavIcons/Account.png"
-        width={150}
-        height={150}
+        scr="../NavIcons/Account.png"
+        width={45}
+        height={45}
         alt="Account"
       />
     </div>

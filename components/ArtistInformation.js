@@ -150,16 +150,15 @@ const data = [
 
   {
     slug: "sea-fog",
-     "/ProductImages/Wanderer Sea Fog Caspar David Friedrich iphone art wallpaper.jpg",
-     Title: "Wanderer Above The Sea Of Fog",
+    imageSource:
+      "/ProductImages/Wanderer Sea Fog Caspar David Friedrich iphone art wallpaper.jpg",
+    Title: "Wanderer Above The Sea Of Fog",
     Artist: "Caspar David Friedrich",
     Year: "1818",
     dimensions: {
       height: 1500,
       width: 1500,
       type: "jpg",
-      imageSource:
-       
     },
   },
 ];
