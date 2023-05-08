@@ -1,11 +1,11 @@
 import Image from "next/image";
 //import Link from "next/link";
 
-export default Header;
+export default SwipeNav;
 
-function Header() {
+function SwipeNav() {
   return (
-    <div className="layout-header">
+    <div className="layout-swipe-nav">
       <Image
         src="/../public/NavIcons/ArtNav.png"
         alt="Art"

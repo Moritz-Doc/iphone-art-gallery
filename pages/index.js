@@ -23,6 +23,7 @@ export default function HomePage({ artList }) {
         width={800}
         height={800}
       ></Image>
+      <p>{art.title}</p>
       <p>{art.artist}</p>
       <p>{art.year}</p>
     </>
