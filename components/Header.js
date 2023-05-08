@@ -5,7 +5,7 @@ export default Header;
 
 function Header() {
   return (
-    <div className="layout-header">
+    <header className="layout-header">
       <Image
         src="/../public/TopNav/Account.png"
         alt="Account"
@@ -24,6 +24,6 @@ function Header() {
         width={60}
         height={60}
       />
-    </div>
+    </header>
   );
 }

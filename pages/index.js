@@ -1,4 +1,6 @@
 import Image from "next/image";
+import SwipeNav from "../components/SwipeNav";
+import SwiperModule from "../components/Swiper";
 // import { useEffect } from "react";
 
 export default function HomePage({ artList }) {
@@ -17,15 +19,8 @@ export default function HomePage({ artList }) {
   //In the return all variables need to be in between curly brackets {}
   return (
     <>
-      <Image
-        src={art.imageSource}
-        alt={art.artist}
-        width={800}
-        height={800}
-      ></Image>
-      <p>{art.title}</p>
-      <p>{art.artist}</p>
-      <p>{art.year}</p>
+      <SwiperModule />
+      <SwipeNav />
     </>
   );
 }
