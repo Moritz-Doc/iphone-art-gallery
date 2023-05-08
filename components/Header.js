@@ -7,20 +7,20 @@ function Header() {
   return (
     <div className="layout-header">
       <Image
-        src="/../public/NavIcons/ArtNav.png"
+        src="/../public/TopNav/Account.png"
+        alt="Account"
+        width={60}
+        height={60}
+      />
+      <Image
+        src="/../public/TopNav/Art.png"
+        alt="Account"
+        width={60}
+        height={60}
+      />
+      <Image
+        src="/../public/TopNav/Cart.png"
         alt="Art"
-        width={60}
-        height={60}
-      />
-      <Image
-        src="/../public/NavIcons/Account.png"
-        alt="Account"
-        width={60}
-        height={60}
-      />
-      <Image
-        src="/../public/NavIcons/CartNav.png"
-        alt="Account"
         width={60}
         height={60}
       />

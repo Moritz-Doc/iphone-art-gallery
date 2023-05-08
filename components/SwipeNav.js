@@ -7,22 +7,34 @@ function SwipeNav() {
   return (
     <div className="layout-swipe-nav">
       <Image
-        src="/../public/NavIcons/ArtNav.png"
+        src="/../public/SwipeNav/GobackSwipe.png"
         alt="Art"
-        width={60}
-        height={60}
+        width={100}
+        height={100}
       />
       <Image
-        src="/../public/NavIcons/Account.png"
+        src="/../public/SwipeNav/NextSwipe.png"
         alt="Account"
-        width={60}
-        height={60}
+        width={100}
+        height={100}
       />
       <Image
-        src="/../public/NavIcons/CartNav.png"
+        src="/../public/SwipeNav/HomeSwipe.png"
         alt="Account"
-        width={60}
-        height={60}
+        width={100}
+        height={100}
+      />
+      <Image
+        src="/../public/SwipeNav/LikeSwipe.png"
+        alt="Account"
+        width={100}
+        height={100}
+      />
+      <Image
+        src="/../public/SwipeNav/FavouritesSwipe.png"
+        alt="Account"
+        width={100}
+        height={100}
       />
     </div>
   );
