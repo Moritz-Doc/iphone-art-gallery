@@ -5,31 +5,31 @@ function SwipeNav() {
   return (
     <div className="layout-swipe-nav">
       <Image
-        src="/../public/SwipeNav/GobackSwipe.png"
+        src="/../public/SwipeNavWhite/GobackSwipe.png"
         alt="Art"
         width={60}
         height={60}
       />
       <Image
-        src="/../public/SwipeNav/NextSwipe.png"
+        src="/../public/SwipeNavWhite/NextSwipe.png"
         alt="Account"
         width={60}
         height={60}
       />
       <Image
-        src="/../public/SwipeNav/HomeSwipe.png"
+        src="/../public/SwipeNavWhite/HomeSwipe.png"
         alt="Account"
         width={60}
         height={60}
       />
       <Image
-        src="/../public/SwipeNav/LikeSwipe.png"
+        src="/../public/SwipeNavWhite/HeartSwipe.png"
         alt="Account"
         width={60}
         height={60}
       />
       <Image
-        src="/../public/SwipeNav/FavouritesSwipe.png"
+        src="/../public/SwipeNavWhite/About.png"
         alt="Account"
         width={60}
         height={60}

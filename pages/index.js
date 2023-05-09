@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/image";
 import SwipeNav from "../components/SwipeNav";
 import SwiperModule from "../components/Swiper";
 // import { useEffect } from "react";

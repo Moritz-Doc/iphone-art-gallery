@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Card from "./Card";
+//import Card from "./Card";
 //import ArtistProfile from "./ArtistProfile";
 import Footer from "./Footer";
 
