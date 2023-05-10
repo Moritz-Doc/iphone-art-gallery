@@ -1,5 +1,5 @@
 import Image from "next/image";
-//import Link from "next/link";
+import Link from "next/link";
 
 function SwipeNav() {
   return (
@@ -16,24 +16,29 @@ function SwipeNav() {
         width={60}
         height={60}
       />
-      <Image
-        src="/../public/SwipeNavWhite/HomeSwipe.png"
-        alt="Account"
-        width={60}
-        height={60}
-      />
+      <Link href={"/home"}>
+        <Image
+          src="/../public/SwipeNavWhite/HomeSwipe.png"
+          alt="Account"
+          width={60}
+          height={60}
+        />
+      </Link>
+
       <Image
         src="/../public/SwipeNavWhite/HeartSwipe.png"
         alt="Account"
         width={60}
         height={60}
       />
-      <Image
-        src="/../public/SwipeNavWhite/About.png"
-        alt="Account"
-        width={60}
-        height={60}
-      />
+      <Link href={"/about"}>
+        <Image
+          src="/../public/SwipeNavWhite/About.png"
+          alt="About"
+          width={60}
+          height={60}
+        />
+      </Link>
     </div>
   );
 }
