@@ -3,21 +3,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { dataInit } from "../assets/data";
 import Image from "next/image";
 import SwipeNav from "./SwipeNav";
-import { useState } from "react";
+import { useState, useRef } from "react";
 // Import Swiper styles
 import "swiper/css";
 
 export default function SwiperModule() {
-  const [currentArtwork, setCurrentArtwork] = useState(null);
+  const [currentArtwork, setCurrentArtwork] = useState(dataInit[0]);
+  const swiperRef = useRef()
 
-  console.log(dataInit);
   return (
     <>
       <Swiper
+      ref={swiperRef}
         className="swiper"
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
+        onSlideChange={(swiper) => setCurrentArtwork(dataInit[swiper.activeIndex])}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {dataInit.map((element) => {
@@ -40,7 +41,7 @@ export default function SwiperModule() {
           );
         })}
       </Swiper>
-      <SwipeNav />
+      <SwipeNav currentArtwork={currentArtwork} swiper={swiperRef} />
     </>
   );
 }
