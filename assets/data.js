@@ -3,9 +3,9 @@ export const dataInit = [
     slug: "creation-adam",
     imageSource:
       "/ProductImages/Creation of Adam Michelangelo iphone art wallpaper.jpg",
-    title: "The Creation of Adam (detail)",
-    artist: "Michelangelo di Lodovico Buonarroti Simoni (Italian)",
-    year: "1508-1512",
+    title: "Title: The Creation of Adam (detail)",
+    artist: "Artist: Michelangelo di Lodovico Buonarroti Simoni (Italian)",
+    year: "Year: 1508-1512",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -17,9 +17,9 @@ export const dataInit = [
     slug: "death-marat",
     imageSource:
       "/ProductImages/Death of Marat Jacques-Louis David iphone art wallpaper.jpg",
-    title: "The Death of Marat",
-    artist: "Jacques-Louis David (French)",
-    year: "1793",
+    title: "Title: The Death of Marat",
+    artist: "Artist: Jacques-Louis David (French)",
+    year: "Year: 1793",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -31,9 +31,9 @@ export const dataInit = [
     slug: "pearl-earring",
     imageSource:
       "/ProductImages/Girl With Pearl Earring Vermeer iphone art wallpaper.jpg",
-    title: "Girl with a Pearl Earring",
-    artist: "Jacques-Louis David (French)",
-    year: "1665",
+    title: "Title: Girl with a Pearl Earring",
+    artist: "Artist: Jacques-Louis David (French)",
+    year: "Year: 1665",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -44,9 +44,9 @@ export const dataInit = [
   {
     slug: "the-kiss",
     imageSource: "/ProductImages/Kiss Klimt iphone art wallpaper.jpg",
-    title: "The Kiss",
-    artist: "Gustav Klimt (Austrian)",
-    year: "1707/08",
+    title: "Title: The Kiss",
+    artist: "Artist: Gustav Klimt (Austrian)",
+    year: "Year: 1707/08",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -57,9 +57,9 @@ export const dataInit = [
   {
     slug: "medusa",
     imageSource: "/ProductImages/Medusa Caravaggio iphone art wallpaper.jpg",
-    title: "Medusa",
-    artist: "Michelangelo Merisi da Caravaggio (Italian)",
-    year: "1596/97",
+    title: "Title: Medusa",
+    artist: "Artist: Michelangelo Merisi da Caravaggio (Italian)",
+    year: "Year: 1596/97",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -71,9 +71,9 @@ export const dataInit = [
     slug: "mona-lisa",
     imageSource:
       "/ProductImages/Mona Lisa Leonardo da Vinci iphone art wallpaper.jpg",
-    title: "Mona Lisa",
-    artist: "Leonardo da Vinci (Italian)",
-    year: "1503",
+    title: "Title: Mona Lisa",
+    artist: "Artist: Leonardo da Vinci (Italian)",
+    year: "Year: 1503",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -85,9 +85,9 @@ export const dataInit = [
     slug: "son-man",
     imageSource:
       "/ProductImages/Son of Man Apple Magritte iphone art wallpaper.jpg",
-    title: "The Son Of Man",
-    artist: "René Magritte (Belgian)",
-    year: "1964",
+    title: "Title: The Son Of Man",
+    artist: "Artist: René Magritte (Belgian)",
+    year: "Year: 1964",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -99,9 +99,9 @@ export const dataInit = [
     slug: "starry-night",
     imageSource:
       "/ProductImages/Starry Night Van Gogh iphone art wallpaper.jpg",
-    title: "The Starry Night",
-    artist: "Vincent Van Gogh (Dutch)",
-    year: "1889",
+    title: "Title: The Starry Night",
+    artist: "Artist: Vincent Van Gogh (Dutch)",
+    year: "Year: 1889",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -112,9 +112,9 @@ export const dataInit = [
   {
     slug: "sun-flowers",
     imageSource: "/ProductImages/Sunflowers Van Gogh iphone art wallpaper.jpg",
-    title: "Sunflowers",
-    artist: "Vincent Van Gogh (Dutch)",
-    year: "1887",
+    title: "Title: Sunflowers",
+    artist: "Artist: Vincent Van Gogh (Dutch)",
+    year: "Year: 1887",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -125,9 +125,9 @@ export const dataInit = [
   {
     slug: "sunrise",
     imageSource: "/ProductImages/Sunrise Claude Monet iphone art wallpaper.jpg",
-    title: "Sunrise",
-    artist: "Claude Monet (French)",
-    year: "1872",
+    title: "Title: Sunrise",
+    artist: "Artist: Claude Monet (French)",
+    year: "Year: 1872",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -138,9 +138,9 @@ export const dataInit = [
   {
     slug: "two-cherubs",
     imageSource: "/ProductImages/Two Cherubs iphone art wallpaper Raphael.jpg",
-    title: "Two Cherubs, The Sistine Madonna (Detail)",
-    artist: "Raffaello Sanzio da Urbino (Italian)",
-    year: "1513",
+    title: "Title: Two Cherubs, Sistine Madonna (Detail)",
+    artist: "Artist: Raffaello Sanzio da Urbino (Italian)",
+    year: "Year: 1513",
     dimensions: {
       height: 1500,
       width: 1500,
@@ -152,9 +152,21 @@ export const dataInit = [
     slug: "sea-fog",
     imageSource:
       "/ProductImages/Wanderer Sea Fog Caspar David Friedrich iphone art wallpaper.jpg",
-    title: "Wanderer Above The Sea Of Fog",
-    artist: "Caspar David Friedrich",
-    year: "1818",
+    title: "Title: Wanderer Above The Sea Of Fog",
+    artist: "Artist: Caspar David Friedrich (German)",
+    year: "Year: 1818",
+    dimensions: {
+      height: 1500,
+      width: 1500,
+      type: "jpg",
+    },
+  },
+  {
+    slug: "michelangelo-quote",
+    imageSource: "/ProductImages/Michelangelo_Quote.jpg",
+    title: "",
+    artist: "",
+    year: "iPhone Art Wallpapers",
     dimensions: {
       height: 1500,
       width: 1500,
