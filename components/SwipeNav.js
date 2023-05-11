@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function SwipeNav({currentArtwork, swiper}) {
+function SwipeNav({ currentArtwork, swiper }) {
   console.log("current:", currentArtwork);
 
   function slideBack() {
@@ -12,7 +12,7 @@ function SwipeNav({currentArtwork, swiper}) {
     swiper.current.swiper.slideNext();
   }
 
-  function setFavorite(){
+  function setFavorite() {
     console.log("ADD TO FAVORITE");
     slideForward();
   }
@@ -42,14 +42,13 @@ function SwipeNav({currentArtwork, swiper}) {
         />
       </Link>
 
-  
-        <Image
-          src="/../public/SwipeNavWhite/HeartSwipe.png"
-          alt="Favourites"
-          width={60}
-          height={60}
-          onClick={()=> setFavorite()}
-        />
+      <Image
+        src="/../public/SwipeNavWhite/HeartSwipe.png"
+        alt="Favourites"
+        width={60}
+        height={60}
+        onClick={() => setFavorite()}
+      />
 
       <Link href={"/about"}>
         <Image
