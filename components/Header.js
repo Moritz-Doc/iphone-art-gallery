@@ -25,7 +25,7 @@ function Header() {
           />
         </Link>
 
-        <Link href={"cart"}>
+        <Link href={"/cart"}>
           <Image
             src="/../public/TopNav/Cart.png"
             alt="Art"

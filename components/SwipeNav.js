@@ -25,12 +25,15 @@ function SwipeNav() {
         />
       </Link>
 
-      <Image
-        src="/../public/SwipeNavWhite/HeartSwipe.png"
-        alt="Favourites"
-        width={60}
-        height={60}
-      />
+      <Link href={"/favourites"}>
+        <Image
+          src="/../public/SwipeNavWhite/HeartSwipe.png"
+          alt="Favourites"
+          width={60}
+          height={60}
+        />
+      </Link>
+
       <Link href={"/about"}>
         <Image
           src="/../public/SwipeNavWhite/About.png"

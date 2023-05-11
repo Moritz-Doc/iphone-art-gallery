@@ -16,15 +16,20 @@ export default createGlobalStyle`
   header {
     width: 100%;
     background: black;
-    display: flex;
     position: fixed;
     height: 70px;
     color: white;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
     padding: 0.4rem 0.5rem;
     top: 0;
+
+    nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;   
+      display: flex;
+      width: 100%
+    }
 
     img {
       width: 60px;
@@ -55,6 +60,7 @@ export default createGlobalStyle`
     display: flex;
     justify-content: space-around;
     gap: 0.25rem;
+    margin-top: 2.5rem;
   }
 
   .swiper {
@@ -66,10 +72,17 @@ export default createGlobalStyle`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 0.5rem;
+        gap: 1.2rem;
 
         figcaption {
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        p {
+          margin: 0;
         }
       }
 

@@ -7,21 +7,6 @@ function Footer() {
   return (
     <footer className="layout-footer">
       <div className="wrapper right">
-        <Link
-          href="https://www.instagram.com/iphoneartwallpapers"
-          target={"_blank"}
-          rel={"noreferrer"}
-        >
-          <>
-            <Image
-              className="layout-footer"
-              src="/../public/FooterNav/Favourites.png"
-              alt="Instagram iPhone Art Wallpapers"
-              width={60}
-              height={60}
-            />
-          </>
-        </Link>
 
         <Link
           href="https://www.instagram.com/iphoneartwallpapers"
@@ -55,6 +40,21 @@ function Footer() {
           </>
         </Link>
       </div>
+        <Link
+          href="https://www.instagram.com/iphoneartwallpapers"
+          target={"_blank"}
+          rel={"noreferrer"}
+        >
+          <>
+            <Image
+              className="layout-footer"
+              src="/../public/FooterNav/Favourites.png"
+              alt="Instagram iPhone Art Wallpapers"
+              width={60}
+              height={60}
+            />
+          </>
+        </Link>
     </footer>
   );
 }
