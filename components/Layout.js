@@ -1,9 +1,7 @@
 import Header from "./Header";
-//import Card from "./Card";
-//import ArtistProfile from "./ArtistProfile";
 import Footer from "./Footer";
 
-export default function Layout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <>
       <Header />
@@ -11,4 +9,6 @@ export default function Layout({ children }) {
       <Footer />
     </>
   );
-}
+};
+
+export default RootLayout;

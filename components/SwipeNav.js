@@ -6,20 +6,20 @@ function SwipeNav() {
     <div className="layout-swipe-nav">
       <Image
         src="/../public/SwipeNavWhite/GobackSwipe.png"
-        alt="Art"
+        alt="GoBack"
         width={60}
         height={60}
       />
       <Image
         src="/../public/SwipeNavWhite/NextSwipe.png"
-        alt="Account"
+        alt="Next"
         width={60}
         height={60}
       />
       <Link href={"/home"}>
         <Image
           src="/../public/SwipeNavWhite/HomeSwipe.png"
-          alt="Account"
+          alt="Home"
           width={60}
           height={60}
         />
@@ -27,7 +27,7 @@ function SwipeNav() {
 
       <Image
         src="/../public/SwipeNavWhite/HeartSwipe.png"
-        alt="Account"
+        alt="Favourites"
         width={60}
         height={60}
       />
