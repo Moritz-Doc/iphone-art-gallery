@@ -60,7 +60,7 @@ export default createGlobalStyle`
     display: flex;
     justify-content: space-around;
     gap: 0.25rem;
-    margin-top: 2.5rem;
+    margin-top: 1.875rem;
   }
 
   .swiper {
@@ -91,5 +91,16 @@ export default createGlobalStyle`
         object-fit: cover;
       }
     }
+  }
+
+  .entry-content {
+    padding: 1rem 10%;
+    width: 100%;
+  }
+
+  container {
+    width: 100%;
+        flex-direction: column;
+    display: flex;
   }
 `;

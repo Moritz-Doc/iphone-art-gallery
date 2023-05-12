@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,9 +12,22 @@ export default function Home() {
           height={550}
         />
       </div>
-      <div>iPhoneArtWallpapers.com</div>
+      <div>
+        <h2 className="art">
+          <Link href="/">iPhoneArtWallpapers.com</Link>
+        </h2>
+      </div>
 
-      <div>SWIPE TO START</div>
+      <div>
+        <Link href={"/"}>
+          <Image
+            src="/../public/TopNav/Art.png"
+            alt="Account"
+            width={100}
+            height={100}
+          />
+        </Link>
+      </div>
     </>
   );
 }
